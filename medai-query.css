@@ -1,0 +1,159 @@
+@media screen and (max-width:992px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav{
+        position: relative;
+    }
+    .nav-bar{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: o.2s ease-in-out;
+    }
+    .nav-bar.active{
+        left: 0;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        /* padding: 10px; */
+    }
+    .heading{
+        height: 30vh;
+    }
+    .header-section{
+       margin-bottom:-20px;
+       gap: 90px;
+    }
+    .possibilities-images{
+        gap: 20px;
+    }
+    .cards{
+        width:calc(50% - 10px);
+        /* gap: 50px; */
+        height: 200px;
+    }
+    .design-section{
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* att 810 */
+@media screen and (max-width:809px){
+    .header-section{
+        flex-direction: column;
+       text-align: center;
+       flex-direction: column-reverse;
+       gap: 40px;
+    }
+    .heading{
+        max-width: 100vh;
+    }
+    .participants{
+        flex-direction: column-reverse;
+        height: 80%;
+        text-align: center;
+    }
+    .participants img{
+        height: 400px;
+    }
+    .list{
+        display: none;
+    }
+    #design-button{
+        display: flex;
+        text-align: center;
+        margin-inline: auto;
+        margin-bottom: 40px;
+    }
+    .inner-footer{
+        justify-content: space-evenly;
+        gap: 50px;
+        padding: 55px;
+        /* font-size: 0.9rem; */
+    }
+    .outer-footer{
+        font-size: 0.9rem;
+        gap: 15px;
+    }
+}
+
+
+
+/* 724px */
+@media screen and (max-width:724px){
+    .company-features{
+        /* width: 50%; */
+    }
+    .features{
+        width: calc(50% - 10px);
+    }
+}
+
+
+/* 678 */
+@media screen and (max-width:678px){
+    .inner-footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-inline: auto;
+    }
+    .outer-footer{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width:456px){
+    .heading{
+        /* margin: 50px 10px 80px 10px; */
+        margin-bottom: 100px;
+
+
+    }
+    .button{
+        width: 100%;
+    }
+    .features{
+        width: 100%;
+    }
+    .arrow{
+        position: relative;
+        right: 25px;
+        left: 72px;
+        bottom: 32px;
+    }
+    .cards{
+        width:100%;
+        /* gap: 50px; */
+        height: 200px;
+    }
+    .outer-footer{
+        /* font-size: .5rem; */
+        flex-direction: column;
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:392px){
+    .heading{
+        margin-bottom: 100px;
+    }
+    #design-button{
+        text-align: center;
+        max-width: 100%;
+        
+    }
+    
+}
